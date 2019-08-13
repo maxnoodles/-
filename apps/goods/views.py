@@ -36,7 +36,7 @@ class GoodsListViewSet(mixins.ListModelMixin, mixins.RetrieveModelMixin, viewset
     # 设置我们的search字段
     search_fields = ('name', 'goods_brief', 'goods_desc')
     # 设置排序
-    ordering_fields = ('sold_num', 'add_ time')
+    ordering_fields = ('sold_num', 'add_time')
 
 
 class CategoryViewSet(mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
