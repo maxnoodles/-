@@ -35,7 +35,7 @@ Pillow==6.0.0
 PyExecJS==1.5.1
 PyJWT==1.7.1
 pytz==2019.1
-PyYAML==5.1
+PyYAML==5.4
 requests==2.22.0
 six==1.12.0
 sqlparse==0.3.0
